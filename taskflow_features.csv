@@ -1,0 +1,16 @@
+feature_id,feature_name,category,release_date,complexity
+FEAT_001,Dashboard View,Core,2022-01-15,Low
+FEAT_002,Task Creation,Core,2022-01-15,Low
+FEAT_003,Project Templates,Core,2022-02-01,Medium
+FEAT_004,Team Chat,Collaboration,2022-03-01,Medium
+FEAT_005,File Sharing,Collaboration,2022-03-15,Medium
+FEAT_006,Comments & Reviews,Collaboration,2022-04-01,Low
+FEAT_007,Progress Reports,Analytics,2022-05-01,High
+FEAT_008,Time Tracking,Analytics,2022-06-01,Medium
+FEAT_009,Custom Dashboards,Analytics,2022-07-01,High
+FEAT_010,API Integration,Advanced,2022-08-01,High
+FEAT_011,Automated Workflows,Advanced,2022-09-01,High
+FEAT_012,Advanced Permissions,Advanced,2022-10-01,Medium
+FEAT_013,Mobile App Sync,Mobile,2023-01-01,High
+FEAT_014,Offline Mode,Mobile,2023-03-01,High
+FEAT_015,Smart Notifications,Engagement,2023-06-01,Medium
