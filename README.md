@@ -1,42 +1,40 @@
-# 📊 Business Impact Dashboard (Power BI)
+# 📊 Product Feature Performance Dashboard (Power BI)
 
 ## 📌 Overview
-This project contains a **Power BI dashboard** that analyzes the **business impact of feature usage**.  
-It provides insights into **revenue correlation, churn risk, ROI analysis, and user lifecycle distribution**.  
-
-The report is designed for **decision-makers and product teams** to track how user behavior and feature adoption influence revenue and retention.  
+This project contains a **Power BI dashboard** designed to analyze **product feature performance** for a SaaS platform.  
+The report highlights **user engagement, feature adoption, revenue impact, and churn risk** across multiple user segments.  
 
 ---
 
-## 🔑 Key Pages & Insights
+## 🔑 Key Insights & Pages
 
-### 1. Revenue Correlation with Feature Usage
-- Scatter plot showing relationship between **feature usage** and **revenue**  
-- Helps identify high-revenue driving features  
+### 1. Feature Performance
+- **Feature adoption trend** (monthly usage growth)  
+- **Top features by usage** (ranked list)  
+- **Feature success rate vs usage** (scatter plot)  
+- **Feature category comparison** (Core, Collaboration, Analytics, Engagement, Mobile, Advanced)  
 
-### 2. Churn Risk Indicators 
-- Churn risk segmented into **Healthy, Low, Medium, High Risk**  
+### 2. User Segmentation
+- **User distribution by subscription tier** (Free, Basic, Pro, Enterprise)  
+- **User engagement by subscription tier**  
+- **Geographic distribution of active users**  
+- **Industry and company size usage patterns**  
 
-### 3. Feature ROI Analysis
-- Bar chart of **ROI by feature**  
-- Payback period and cost-to-benefit comparisons  
-
-### 4. User Lifecycle Stage Distribution
-- Donut chart showing users across stages:  
-  - *New User, Active New, Established Active, At Risk, Churned, Dormant*  
-- Segmented further by **subscription tier**  
+### 3. Business Impact
+- **Revenue correlation with feature usage** (scatter plot)  
+- **Churn risk indicators** (Healthy, Low, Medium, High Risk)  
+- **Feature ROI analysis** (ROI and payback period per feature)  
+- **Lifecycle stage distribution** (New, Active New, Established Active, At Risk, Churned)  
 
 ---
 
 ## 🛠️ Tech & Tools
 - **Power BI Desktop**  
-- **DAX Measures** for custom metrics (ROI, churn risk, lifecycle stages, stickiness)  
-- **Data Model includes**:  
-  - `taskflow_users` → user data with signup date & subscription tier  
-  - `taskflow_feature_usage` → feature interactions, usage count, time spent  
-  - `taskflow_features` → feature metadata with complexity & category  
-  - `taskflow_business_metrics` → daily revenue, financial KPIs  
+- **DAX measures** for metrics like ROI, churn risk, lifecycle stages, and feature adoption  
+- Synthetic dataset includes:
+  - `users` → user demographics, signup date, subscription tier  
+  - `features` → feature metadata (release date, complexity, category)  
+  - `feature_usage` → daily feature interactions (usage count, time spent, success rate)  
+  - `business_metrics` → daily revenue, signups, churn, support tickets  
 
 ---
-
-## 📂 Repository Structure
